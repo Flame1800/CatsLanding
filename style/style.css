@@ -6,39 +6,45 @@
     font-family: 'Roboto', sans-serif;
 }
 
-header {
-    background: #000;
+.wrapper-head {
     width: 100%;
-    height: 100vh;
-    
+    background: #181617;
+}
+
+.main-container {
+    width: 1366px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .content {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    height: calc(100vh - 11%);
 }
 .part1 {
     margin-top: 190px;
-    margin-left: 200px;
     line-height: 1.01;
+
 }
 .part1 .town {
     color: #A07B50;
-    font-size: 26px;
+    font-size: 16px;
     margin-bottom: 20px;
 }
 
 .part1 .title {
-    font-family: 'Yeseva One';
-    font-size: 62px;
+    font-family: 'Yeseva One', cursive;
+    font-size: 52px;
     margin-bottom: 31px;
 }
 
 .part1 .sub-title {
     color: #A07B50;
-    font-size: 26px;
+    font-size: 16px;
     margin-bottom: 20px;
 }
 
@@ -46,20 +52,160 @@ header {
     padding: 18px 35px;
     display: inline-block;
     font-weight: 800;
-    margin-top: 72px;
-    font-size: 16px;
+    margin-top: 62px;
+    font-size: 14px;
     border: 1px solid #A07B50;
 }
 
-.big-bg-cat {
-    width: 784px;
-    height: 761px;
-    -webkit-user-drag: none;
+.logo-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 42px;
+    background: url('../img/Vector.png') no-repeat;
+    width: 54px;
+    height: 24px;
+}
+
+.links {
+    margin-left: 87px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 76px;
+}
+
+.dec-figure {
+    height: 77px;
+    width: 1px; 
+    background-color: #fff;
+    margin-bottom: 121px;
+    display: flex;
+    justify-content: center;
+}
+
+.social .icon1 {
+    width: 13px;
+    height: 8px;
+    background: url('../img/vk.png');
+    display: flex;
+}
+
+.social .icon2 {
+    width: 15px;
+    height: 10px;
+    background: url('../img/Twitter.png');
+    display: flex;
+    margin-top: 16px;
+    margin-bottom: 14px;
+}
+
+.social .icon3 {
+    width: 5px;
+    height: 10px;
+    background: url('../img/Facebook.png');
+    display: flex;
+}
+
+.wrapper-cats {
+    background: #1F1C1D;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-title {
+    margin-top: 191px;
+    font-family: 'Yeseva One', cursive;
+    font-size: 36px;
     text-align: center;
-    padding: 30px;
+    margin-bottom: 31px;
+    width: 100%;
+}
+.main-sub-title {
+    color: #A07B50;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+    font-weight: 300;
+}
+
+.gallery .selector {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 38px;
+}
+
+.gallery .selector .sell {
+    font-size: 18px;
+    font-weight: medium;
+    margin: 0 40px;
+    opacity: 0.2;
+    margin-bottom: 40px;
+}
+
+.gallery .gall {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.img-cat1 {
+    background: url('../img/pets-list-1-desktop@1x.png');
+    background-size: cover;
+    display: flex;
+    width: 519px;
+    height: 214px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.img-cat2 {
+    background: url('../img/pets-list-2-desktop@1x.png');
+    background-size: cover;
+    display: flex;
+    width: 519px;
+    height: 214px;
+    margin-right: 30px;
+}
+
+.img-cat3 {
+    background: url('../img/pets-list-3-desktop@1x.png') no-repeat;
+    display: flex;
+    height: 520px;
+    width: 520px;
+}
+
+.gallery .btn {
+    padding: 20px 40px;
+    border: 1px solid #A07B50;
+    font-weight: 600;
+}
+
+.advantages {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 69px;
 }
 
 
+.advantages .content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.img-cat-adv {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    background-image: url('../img/cat-adv.png');
+    width: 653px;
+    height: 700px;
+}
